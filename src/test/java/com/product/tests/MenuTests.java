@@ -12,5 +12,11 @@ public class MenuTests extends BaseTest {
 		menuPageObj.clickAboutUs();
 		Assert.assertEquals(menuPageObj.getUrl(), "http://localhost:81/product/aboutus.php");
 	}
+	
+	@Test
+	public void validateAboutUs1(){
+		menuPageObj.clickAboutUs();
+		Assert.assertEquals(menuPageObj.getUrl(), "http://localhost:81/product/aboutus.php");
+	}
 
 }
