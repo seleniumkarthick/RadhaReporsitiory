@@ -1,0 +1,11 @@
+<suite name="sanity suite">
+    
+    <test name="test1">
+        
+        <classes>
+            <class name="com.product.tests.MenuTests"></class>
+        </classes>
+        
+    </test>
+    
+</suite>
